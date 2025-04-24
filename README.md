@@ -35,7 +35,8 @@ python data_quality_check.py
 5. Check the results:
 - Output file: `sample_output/validation_report.csv`
 
-📁 Note: The `sample_output/` folder is included with a placeholder file so the folder is available after cloning. The validation report will be saved here after running the script.
+📁 Note: The sample_output folder is part of the project and includes a small placeholder file to make sure it remains visible when the project is cloned using Git
+
 
 
 ## 📊 Output Example
