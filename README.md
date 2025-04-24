@@ -1,4 +1,4 @@
-# 🧪 E-Commerce Data Quality Audit
+# 📊 E-Commerce Data Quality Audit
 
 ## Overview
 This project includes a Python-based automated script for identifying common data quality issues in an e-commerce dataset. It supports teams in detecting errors related to missing values, invalid entries, duplication, and miscalculated fields.
