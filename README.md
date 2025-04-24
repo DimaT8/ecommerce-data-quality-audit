@@ -44,12 +44,17 @@ python data_quality_check.py
 
 | Issue Type            | Record Count |
 |-----------------------|---------------|
-| Missing Rows          | 20            |
+| Missing Rows          | 21            |
+| Future-Dated Orders   | 0             |
 | Invalid Quantity      | 5             |
 | Invalid Price         | 8             |
-| Incorrect TotalAmount | 183           |
+| Incorrect TotalAmount | 203           |
+| Fully Duplicated Rows | 2             |
 | Duplicate OrderIDs    | 6             |
-|Fully Duplicated Rows  | 2             |
+
+📌 The validation results shown in this README reflect the included dataset. Output may vary if the dataset is modified.
+
+
 
 ## 🔍 Purpose
 This tool provides a lightweight and repeatable way to audit e-commerce data before using it in reports or dashboards. It can be extended easily for use in larger pipelines or scheduled checks.
