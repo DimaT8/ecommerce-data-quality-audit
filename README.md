@@ -52,7 +52,7 @@ python data_quality_check.py
 |Fully Duplicated Rows  | 2             |
 
 ## 🔍 Purpose
-This tool is designed for data engineers, analysts, and quality managers looking to automate common data checks and ensure clean, analysis-ready datasets.
+This tool provides a lightweight and repeatable way to audit e-commerce data before using it in reports or dashboards. It can be extended easily for use in larger pipelines or scheduled checks.
 
 **Maintained by**: Dima Taha  
 **Last Updated**: April 2025
