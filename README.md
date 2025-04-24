@@ -24,7 +24,8 @@ cd ecommerce-data-quality-audit
 pip install -r requirements.txt
 ```
 
-3. Add your dataset (as `ecommerce-dataset.csv`) to the project folder.
+3. The dataset is already included in the project as `ecommerce-dataset.csv`.
+
 
 4. Run the script:
 ```bash
@@ -33,6 +34,9 @@ python data_quality_check.py
 
 5. Check the results:
 - Output file: `sample_output/validation_report.csv`
+
+📁 Note: The `sample_output/` folder is included with a placeholder file so the folder is available after cloning. The validation report will be saved here after running the script.
+
 
 ## 📊 Output Example
 
@@ -48,3 +52,5 @@ This tool is designed for data engineers, analysts, and quality managers looking
 
 **Maintained by**: Dima Taha  
 **Last Updated**: April 2025
+
+Update README to reflect pre-included dataset and output folder
