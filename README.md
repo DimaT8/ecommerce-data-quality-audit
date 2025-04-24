@@ -32,8 +32,9 @@ pip install -r requirements.txt
 python data_quality_check.py
 ```
 
-5. Check the results:
-- Output file: `sample_output/validation_report.csv`
+5. After running the script, a summary report will be saved to:
+   sample_output/validation_report.csv
+
 
 📁 Note: The sample_output folder is part of the project and includes a small placeholder file to make sure it remains visible when the project is cloned using Git
 
@@ -47,6 +48,8 @@ python data_quality_check.py
 | Invalid Quantity      | 5             |
 | Invalid Price         | 8             |
 | Incorrect TotalAmount | 183           |
+| Duplicate OrderIDs    | 6             |
+|Fully Duplicated Rows  | 2             |
 
 ## 🔍 Purpose
 This tool is designed for data engineers, analysts, and quality managers looking to automate common data checks and ensure clean, analysis-ready datasets.
